@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerSoap", "TallerSoap\TallerSoap.csproj", "{98C42588-B3AA-4BB0-B5B1-6328168BB4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "Cliente\Cliente.csproj", "{F5A91479-DF4A-4FBC-90A0-2BF4137BE14F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98C42588-B3AA-4BB0-B5B1-6328168BB4DB} = {98C42588-B3AA-4BB0-B5B1-6328168BB4DB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98C42588-B3AA-4BB0-B5B1-6328168BB4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C42588-B3AA-4BB0-B5B1-6328168BB4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C42588-B3AA-4BB0-B5B1-6328168BB4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C42588-B3AA-4BB0-B5B1-6328168BB4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A91479-DF4A-4FBC-90A0-2BF4137BE14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A91479-DF4A-4FBC-90A0-2BF4137BE14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A91479-DF4A-4FBC-90A0-2BF4137BE14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A91479-DF4A-4FBC-90A0-2BF4137BE14F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F960523-FA93-450F-A171-B94F54C5E290}
+	EndGlobalSection
+EndGlobal
